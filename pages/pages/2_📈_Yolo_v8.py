@@ -4,7 +4,6 @@ from PIL import Image
 import numpy as np
 import requests
 from io import BytesIO
-import matplotlib.pyplot as plt
 
 # Load the YOLO model
 model = YOLO('models/model-2/yolo200ep.pt')  # Ensure that best.pt is in the correct path or provide the full path
